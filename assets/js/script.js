@@ -10,7 +10,7 @@ function processOptions(form) {
 
     for (let entry of form.entries()) {
         if(entry[0] === "options") {
-            optArray.push(entry[0]);
+            optArray.push(entry[1]);
         }
     }
     form.delete("options");
